@@ -1,22 +1,22 @@
 {
 	"name": "youness",
-	"language": ["fr", "en"],
-	"domains": ["torrent9.fm"],
-	"base_url": "https://www.torrent9.fm",
+	"language": ["hi", "en"],
+	"domains": ["oxtorrent.sk"],
+	"base_url": "https://www.oxtorrent.sk/",
 	"search_url_format_episode": {
-		"string_format": "/search_torrent/series/%s",
+		"string_format": "/recherche/%s",
 		"replacement": [
 			"title_lower"
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/search_torrent/films/%s,trie-date-d",
+		"string_format": "/recherche/%s",
 		"replacement": [
 			"title_lower"
 		]
 	},
 	"search_url_format_season_pack": {
-		"string_format": "/search?q=%s&sort=date&order=desc",
+		"string_format": "/recherche/%s",
 		"replacement": [
 			"title_lower"
 		]
