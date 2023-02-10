@@ -12,7 +12,7 @@
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/search_torrent/films/%s",
+		"string_format": "/search_torrent/films/%s,trie-date-d",
 		"replacement": [
 			"title_lower",
 			"year_int"
